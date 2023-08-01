@@ -1,0 +1,114 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{margin: 0;padding: 0; font-family: 'Cormorant', serif;}
+a{text-decoration: none; color: rgb(20, 20, 20);}
+ul,li,ol{list-style: none;}
+.d-block{display: block;}
+.d-flex{display: flex;}
+.jcb{justify-content: space-between;}
+.aic{align-items: center;}
+.acc{align-content: center;}
+.jic{justify-items: center;}
+.jcc{justify-content: center;}
+.pr{position: relative;}
+.pa{position: absolute;}
+.m-auto{margin:0 auto;}
+.col12{width: 100%;}
+.col6{width: 50%;}
+.col4{width: 33.333%;}
+.col3{width: 25%;}
+.col2{width: 16.6666667%;}
+.col1{width: 8.333;}
+.fdc{flex-direction: column;}
+
+
+
+/* header */
+.header{
+    background-color: white;
+    padding:29px 84px;
+    h1{
+        margin-bottom: 0;
+        .navbar-brand{
+            margin-right: 0;
+            padding: 0;
+            display: block;
+             img{
+                height: 1.5rem;
+            
+             }
+        }
+       
+   }
+   @media (max-width:1240px) {
+                margin: 0;
+                
+            }
+
+}
+
+#navbarScroll{
+    justify-content: flex-end;
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+#gnb {
+
+     li{
+        margin: 68px 0 0 2rem;
+        &:last-child{margin-right: 105px;}
+    }
+}
+
+// .swiper-slide{
+    // position: relative;
+    // &:after{
+        // content: "";       
+        // display: block;       
+        // height: 500px;
+        // padding-top: 100%;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // border-radius:0%;
+        // overflow: hidden;
+    // }   
+    // &.slide0:after{
+    //     background-image:url("../../public/img/aa1.jpg");
+    // }
+    // &.slide1:after{
+    //     background-image:url("../../public/img/aa2.jpg");       
+    // }
+    // &.slide2:after{
+    //     background-image:url("../../public/img/aa3.jpg");       
+    // }
+   
+    // }
+
+.banner{
+margin-top: 10rem;
+}
+
+.swiper-wrapper{
+    height: 30rem !important;
+    .swiper-slide{
+        background-repeat: no-repeat;
+        background-position: center;
+        &.slide0{background-image:url("../../public/img/aa1.jpg");}
+        &.slide1{background-image:url("../../public/img/aa2.jpg");}
+        &.slide2{background-image:url("../../public/img/aa3.jpg");}
+    }
+}
+
+
+   
+
+
+
+
